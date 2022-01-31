@@ -14,12 +14,11 @@
     <link href="{{ asset('assets/css/sweetalert.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('assets/css/select2.min.css') }}" rel="stylesheet" type="text/css"/>
 
-@yield('page_css')
-<!-- Template CSS -->
+    @yield('page_css')
+    <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('web/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('web/css/components.css')}}">
     @yield('page_css')
-
 
     @yield('css')
 </head>
@@ -30,7 +29,6 @@
         <div class="navbar-bg"></div>
         <nav class="navbar navbar-expand-lg main-navbar">
             @include('layouts.header')
-      
         </nav>
         <div class="main-sidebar main-sidebar-postion">
             @include('layouts.sidebar')
@@ -68,6 +66,7 @@
 <script>
     let loggedInUser =@json(\Illuminate\Support\Facades\Auth::user());
     let loginUrl = '{{ route('login') }}';
+    let userUrl = '{{ route('users') }}';
     // Loading button plugin (removed from BS4)
     (function ($) {
         $.fn.button = function (action) {
