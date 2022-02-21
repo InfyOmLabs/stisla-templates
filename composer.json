@@ -20,7 +20,8 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^9.0"
+        "illuminate/support": "^9.0",
+        "infyomlabs/laravel-ui-stisla": "4.x-dev"
     },
     "autoload": {
         "psr-4": {
