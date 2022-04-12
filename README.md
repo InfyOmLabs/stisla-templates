@@ -10,7 +10,7 @@ Stisla templates for InfyOm Laravel Generator
 
 ## Documentation
 
-Read [Documentation](https://infyom.com/open-source/laravelgenerator/docs/8.0/stisla-templates) for detailed installation steps and usage.
+Read [Documentation](https://infyom.com/open-source/laravelgenerator/docs/9.0/stisla-templates) for detailed installation steps and usage.
 
 ## Support Us
 
